@@ -1,11 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.econetwireless.utils.formatters.ResponseMarkerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.108 sec <<< FAILURE!
-testGetMarker(com.econetwireless.utils.formatters.ResponseMarkerTest)  Time elapsed: 0.019 sec  <<< ERROR!
-java.lang.NullPointerException
-	at com.econetwireless.utils.formatters.ResponseMarker.getMarker(ResponseMarker.java:15)
-	at com.econetwireless.utils.formatters.ResponseMarkerTest.testGetMarker(ResponseMarkerTest.java:33)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec <<< FAILURE!
+testGetMarker(com.econetwireless.utils.formatters.ResponseMarkerTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[SUCCESS][]> but was:<[SUCCESS][ ]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.econetwireless.utils.formatters.ResponseMarkerTest.testGetMarker(ResponseMarkerTest.java:36)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
