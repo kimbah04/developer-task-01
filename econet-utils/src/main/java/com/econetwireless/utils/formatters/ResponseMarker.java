@@ -7,7 +7,7 @@ import com.econetwireless.utils.enums.ResponseCode;
  */
 public class ResponseMarker {
 
-    private ResponseMarker() {
+    public ResponseMarker() {
         super();
     }
 
