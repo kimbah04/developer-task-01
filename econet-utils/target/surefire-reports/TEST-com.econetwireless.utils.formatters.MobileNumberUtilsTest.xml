@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.econetwireless.utils.formatters.MobileNumberUtilsTest" time="0.37" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="com.econetwireless.utils.formatters.MobileNumberUtilsTest" time="0.385" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/local/jdk1.8.0_111/jre/lib/amd64"/>
@@ -63,8 +63,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.econetwireless.utils.formatters.MobileNumberUtilsTest" name="testIsNumeric" time="0.299"/>
+  <testcase classname="com.econetwireless.utils.formatters.MobileNumberUtilsTest" name="testIsNumeric" time="0.306"/>
   <testcase classname="com.econetwireless.utils.formatters.MobileNumberUtilsTest" name="testIsInitiatorSameAsBeneficiary" time="0"/>
   <testcase classname="com.econetwireless.utils.formatters.MobileNumberUtilsTest" name="testFormatMobileNumber" time="0"/>
+  <testcase classname="com.econetwireless.utils.formatters.MobileNumberUtilsTest" name="testMain" time="0.013"/>
   <testcase classname="com.econetwireless.utils.formatters.MobileNumberUtilsTest" name="testFormatMobileToInternationalMode" time="0"/>
 </testsuite>
